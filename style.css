@@ -1,0 +1,79 @@
+h1 {
+    color: #666;
+    margin: 20px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+  }
+#box div{
+    flex: 1;
+    min-width: 300px;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255,0.4);
+    overflow: hidden;
+
+
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.buttoon {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .web{
+background-image:url('https://image.freepik.com/free-vector/purple-web-development-background_76964-167.jpg');
+
+
+  }
+  .app{
+background-image: url('https://tse3.mm.bing.net/th?id=OIP.8zpicwS3MoHqL44Qov-oYAHaD5&pid=Api&P=0&h=180');
+
+  }
+  .python{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.ShkBGWpWL4y9BjfkdZsrUQHaEK&pid=Api&P=0&h=180');
+
+  }
+  .java{
+ background-image: url('https://tse3.mm.bing.net/th?id=OIP.ePxgMpxO-bLNJ5dtGjF_BgHaEo&pid=Api&P=0&h=180');
+  }
+  .canva{
+background-image: url('https://clipartcraft.com/images/canva-logo-5.png');
+  }
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .footer img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+  }
+.form-control me-2{
+  width: 20px;
+  height: 20px;
+  align-content: end;
+}
